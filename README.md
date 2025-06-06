@@ -1,5 +1,7 @@
-# 🔗 Towards Interoperable Automation Engineering  
-**Mapping AutomationML to AAS Submodels**
+# 🔗 Towards Interoperable Process Description in
+# Industry 4.0 
+**A Structured Mapping from FPD to
+AAS**
 
 ## 📄 Overview
 
