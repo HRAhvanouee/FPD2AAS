@@ -5,29 +5,25 @@
 
 This repository contains the implementation and supplementary materials for the paper:
 
-**"Towards Interoperable Automation Engineering: Mapping AutomationML to AAS Submodels"**  
-Hesam Rezaee Ahvanouee, Franz Christopher Kunze, Alexander Fay — Ruhr-University Bochum and Julian Rahm — EPLAN GmbH & Co. KG
+**"Towards Interoperable Process Description in Industry 4.0 : A Structured Mapping from FPD to AAS"**  
+Hesam Rezaee Ahvanouee, Lasse Beers, Galyna Tabunshchyk, Alexander Fay
 
-The project introduces a middleware solution that maps **AutomationML (AML)** project descriptions to **Asset Administration Shell (AAS)** submodels, particularly focusing on the **Automation Engineering Submodel** as defined by the Industrial Digital Twin Association (IDTA).
+The Asset Administration Shell (AAS) plays a central role in Industry 4.0 by providing a standardized digital representation of assets, facilitating interoperability, modularization, and integration across industrial systems. To support the modeling of processes within this framework, a common challenge lies in aligning existing process modeling approaches with the semantic structure of AAS submodels. This paper proposes a structured methodology for mapping Formal Process Description (FPD) models to AAS Format. By analyzing the conceptual alignment between FPD elements and the semantic constructs of the AAS, the approach bridges the gap between domain-specific process models and the standardized representation required for Industry 4.0 ecosystems. A mapping methodology is introduced and demonstrated through a representative use case, illustrating the practical benefits for interoperability and digital continuity in process modeling.
 
 
 
 ## 🛠️ Project Structure
 
 ```bash
-📁 aml-to-aas-middleware/
-├── AML2AAS.py             # Main script to run the AML to AAS conversion
-├── AML2AAS_Functions.py   # Core mapping logic and helper functions
-├── AML_Vera.aml           # Input AutomationML file (VERA plant)
-├── XML_Vera.xml           # Alternative or parsed XML version of the AML project
-├── AAS_Vera.aasx          # Output Asset Administration Shell package
-├── Vera.png               # VERA pilot plant image (used in documentation)
-├── Mapping.png            # Developed Concept image (used in documentation)
-└── README.md              # Project documentation and usage guide
+📁 fpd-to-aas-middleware/
+├── FPD2AAS.py             # Main script to run the FPD to AAS conversion.
+├── FPD2AAS_Functions.py   # Core mapping logic and helper functions.
+├── FPD.py                 # Core mapping logic and helper functions.
+├── AAS.aasx               # Output AAS file.
+├── FPD.json               # Input FPD file. 
+└── README.md              # Project documentation and usage guide.
 
 ```
-
-
 
 
 ## 📬 Contact
