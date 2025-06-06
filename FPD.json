@@ -1,0 +1,2130 @@
+[
+    {
+        "$type": "fpb:Project",
+        "name": "FPBJS_Project",
+        "targetNamespace": "http://www.hsu-ifa.de/fpbjs",
+        "entryPoint": "a4552f31-133a-4b28-b839-f29497f92c04"
+    },
+    {
+        "process": {
+            "$type": "fpb:Process",
+            "id": "a4552f31-133a-4b28-b839-f29497f92c04",
+            "elementsContainer": [
+                "653d364c-8725-465a-92c4-39af765ce1dd",
+                "88bc6ce0-ab23-484c-bdd7-040e67046b94",
+                "3f38a4bf-ac1a-409b-93ed-4e1c7a5656ef",
+                "b2b918dd-4395-4c45-8e1f-dc19c8793946",
+                "3859d195-d22a-4eda-a040-65129de6c746",
+                "3cc60a76-f929-454f-99cf-77e448e16942",
+                "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e"
+            ],
+            "isDecomposedProcessOperator": null,
+            "consistsOfStates": [
+                "46ce2b2d-1377-488b-9c91-14690c4808db",
+                "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6",
+                "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                "1832da22-c875-46ec-9174-8bec3a9e051f",
+                "661dce07-1701-4d88-9788-b8689271b478",
+                "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                "62ee335a-14c9-491d-9421-db84be57032d",
+                "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                "48358627-474e-4117-8683-7508d1e637a0",
+                "e6037107-3cbe-499a-b1f0-628d15913985",
+                "5b3964b4-1637-4326-a356-613917abdcbc"
+            ],
+            "consistsOfSystemLimit": "b2b918dd-4395-4c45-8e1f-dc19c8793946",
+            "consistsOfProcesses": [],
+            "consistsOfProcessOperator": [
+                "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+            ]
+        },
+        "elementDataInformation": [
+            {
+                "$type": "fpb:Usage",
+                "id": "653d364c-8725-465a-92c4-39af765ce1dd",
+                "sourceRef": "3859d195-d22a-4eda-a040-65129de6c746",
+                "targetRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+            },
+            {
+                "$type": "fpb:Usage",
+                "id": "88bc6ce0-ab23-484c-bdd7-040e67046b94",
+                "sourceRef": "3cc60a76-f929-454f-99cf-77e448e16942",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Usage",
+                "id": "3f38a4bf-ac1a-409b-93ed-4e1c7a5656ef",
+                "sourceRef": "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e",
+                "targetRef": "69acf6e4-278c-4b46-acd8-90b3b9a3a179"
+            },
+            {
+                "$type": "fpb:SystemLimit",
+                "id": "b2b918dd-4395-4c45-8e1f-dc19c8793946",
+                "elementsContainer": [
+                    "93bda67a-5b2a-47b4-8d86-e0fee962ca68",
+                    "91f7cda9-083f-47b8-92dc-233c6c083040",
+                    "62802482-23f0-4421-95d3-42d8b18ecd32",
+                    "15729153-7b8d-4e16-822d-0557c529444e",
+                    "4e5b4c8e-3352-4e9b-b613-752bb3263dee",
+                    "35e5b59d-e053-4877-b2b6-b0f0fcb5d2f3",
+                    "f3163a55-96ef-4750-805a-f46906aaca47",
+                    "7fd58c4b-5bb7-4045-88e1-457defeeb323",
+                    "c6f0db07-c610-4eb0-8bb4-84fa3503d0de",
+                    "68c59ccf-47b9-47c3-b774-0877b7abe772",
+                    "2cebf786-9c52-4307-84ad-d5033bde5154",
+                    "bf099218-0a5c-4ee9-b8d9-d11ef338d3c7",
+                    "ca906108-71f0-4a51-a37a-c2e33597ab5f",
+                    "85287796-269a-429f-a29a-45a3b5cd1dc6",
+                    "3a0a49a0-8925-471b-abdb-e9a35345ecd2",
+                    "6097af8f-2ac9-4caa-9a44-1d5b5b938ef2",
+                    "3ddf38ca-408a-480d-a9c1-e68473745ad8",
+                    "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                    "46ce2b2d-1377-488b-9c91-14690c4808db",
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                    "661dce07-1701-4d88-9788-b8689271b478",
+                    "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                    "48358627-474e-4117-8683-7508d1e637a0",
+                    "e6037107-3cbe-499a-b1f0-628d15913985",
+                    "5b3964b4-1637-4326-a356-613917abdcbc",
+                    "1832da22-c875-46ec-9174-8bec3a9e051f",
+                    "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                    "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                    "62ee335a-14c9-491d-9421-db84be57032d",
+                    "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                    "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                    "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6"
+                ]
+            },
+            {
+                "$type": "fpb:TechnicalResource",
+                "id": "3859d195-d22a-4eda-a040-65129de6c746",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "3859d195-d22a-4eda-a040-65129de6c746",
+                    "longName": "Demolding_Station",
+                    "shortName": "Demolding_TR",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "653d364c-8725-465a-92c4-39af765ce1dd"
+                ],
+                "name": "Demolding_TR",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "3859d195-d22a-4eda-a040-65129de6c746_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:TechnicalResource",
+                "id": "3cc60a76-f929-454f-99cf-77e448e16942",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "3cc60a76-f929-454f-99cf-77e448e16942",
+                    "longName": "Injection_Station",
+                    "shortName": "Injection_TR",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "88bc6ce0-ab23-484c-bdd7-040e67046b94"
+                ],
+                "name": "Injection_TR",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "3cc60a76-f929-454f-99cf-77e448e16942_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:TechnicalResource",
+                "id": "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e",
+                    "longName": "Performing_Station",
+                    "shortName": "Performing_TR",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "69acf6e4-278c-4b46-acd8-90b3b9a3a179"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "3f38a4bf-ac1a-409b-93ed-4e1c7a5656ef"
+                ],
+                "name": "Performing_TR",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "93bda67a-5b2a-47b4-8d86-e0fee962ca68",
+                "sourceRef": "1832da22-c875-46ec-9174-8bec3a9e051f",
+                "targetRef": "69acf6e4-278c-4b46-acd8-90b3b9a3a179"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "91f7cda9-083f-47b8-92dc-233c6c083040",
+                "sourceRef": "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                "targetRef": "46ce2b2d-1377-488b-9c91-14690c4808db"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "62802482-23f0-4421-95d3-42d8b18ecd32",
+                "sourceRef": "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                "targetRef": "29aa81c6-32d0-41fe-aaa6-cc53189db763"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "15729153-7b8d-4e16-822d-0557c529444e",
+                "sourceRef": "46ce2b2d-1377-488b-9c91-14690c4808db",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "4e5b4c8e-3352-4e9b-b613-752bb3263dee",
+                "sourceRef": "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "35e5b59d-e053-4877-b2b6-b0f0fcb5d2f3",
+                "sourceRef": "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "f3163a55-96ef-4750-805a-f46906aaca47",
+                "sourceRef": "62ee335a-14c9-491d-9421-db84be57032d",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "7fd58c4b-5bb7-4045-88e1-457defeeb323",
+                "sourceRef": "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "c6f0db07-c610-4eb0-8bb4-84fa3503d0de",
+                "sourceRef": "661dce07-1701-4d88-9788-b8689271b478",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "68c59ccf-47b9-47c3-b774-0877b7abe772",
+                "sourceRef": "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                "targetRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "2cebf786-9c52-4307-84ad-d5033bde5154",
+                "sourceRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                "targetRef": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "bf099218-0a5c-4ee9-b8d9-d11ef338d3c7",
+                "sourceRef": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                "targetRef": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "ca906108-71f0-4a51-a37a-c2e33597ab5f",
+                "sourceRef": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                "targetRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "85287796-269a-429f-a29a-45a3b5cd1dc6",
+                "sourceRef": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6",
+                "targetRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "3a0a49a0-8925-471b-abdb-e9a35345ecd2",
+                "sourceRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                "targetRef": "5b3964b4-1637-4326-a356-613917abdcbc"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "6097af8f-2ac9-4caa-9a44-1d5b5b938ef2",
+                "sourceRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                "targetRef": "e6037107-3cbe-499a-b1f0-628d15913985"
+            },
+            {
+                "$type": "fpb:Flow",
+                "id": "3ddf38ca-408a-480d-a9c1-e68473745ad8",
+                "sourceRef": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                "targetRef": "48358627-474e-4117-8683-7508d1e637a0"
+            },
+            {
+                "$type": "fpb:ProcessOperator",
+                "id": "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                    "longName": "Performing_Process_Operator",
+                    "shortName": "Performing_PO",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e"
+                ],
+                "incoming": [
+                    "93bda67a-5b2a-47b4-8d86-e0fee962ca68",
+                    "3f38a4bf-ac1a-409b-93ed-4e1c7a5656ef"
+                ],
+                "outgoing": [
+                    "91f7cda9-083f-47b8-92dc-233c6c083040",
+                    "62802482-23f0-4421-95d3-42d8b18ecd32"
+                ],
+                "name": "Performing_PO",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "69acf6e4-278c-4b46-acd8-90b3b9a3a179_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "46ce2b2d-1377-488b-9c91-14690c4808db",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "46ce2b2d-1377-488b-9c91-14690c4808db",
+                    "longName": "Perform_Product",
+                    "shortName": "Perform_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [
+                    "91f7cda9-083f-47b8-92dc-233c6c083040"
+                ],
+                "outgoing": [
+                    "15729153-7b8d-4e16-822d-0557c529444e"
+                ],
+                "name": "Perform_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "46ce2b2d-1377-488b-9c91-14690c4808db_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:ProcessOperator",
+                "id": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                    "longName": "Injection_Curing_Process_Operator",
+                    "shortName": "Injection_PO",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "3cc60a76-f929-454f-99cf-77e448e16942"
+                ],
+                "incoming": [
+                    "15729153-7b8d-4e16-822d-0557c529444e",
+                    "4e5b4c8e-3352-4e9b-b613-752bb3263dee",
+                    "35e5b59d-e053-4877-b2b6-b0f0fcb5d2f3",
+                    "f3163a55-96ef-4750-805a-f46906aaca47",
+                    "7fd58c4b-5bb7-4045-88e1-457defeeb323",
+                    "c6f0db07-c610-4eb0-8bb4-84fa3503d0de",
+                    "68c59ccf-47b9-47c3-b774-0877b7abe772",
+                    "88bc6ce0-ab23-484c-bdd7-040e67046b94"
+                ],
+                "outgoing": [
+                    "2cebf786-9c52-4307-84ad-d5033bde5154",
+                    "bf099218-0a5c-4ee9-b8d9-d11ef338d3c7"
+                ],
+                "name": "Injection_PO",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:ProcessOperator",
+                "id": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                    "longName": "Demolding_Process_Operator",
+                    "shortName": "Demolding_PO",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "3859d195-d22a-4eda-a040-65129de6c746"
+                ],
+                "incoming": [
+                    "ca906108-71f0-4a51-a37a-c2e33597ab5f",
+                    "85287796-269a-429f-a29a-45a3b5cd1dc6",
+                    "653d364c-8725-465a-92c4-39af765ce1dd"
+                ],
+                "outgoing": [
+                    "3a0a49a0-8925-471b-abdb-e9a35345ecd2",
+                    "6097af8f-2ac9-4caa-9a44-1d5b5b938ef2",
+                    "3ddf38ca-408a-480d-a9c1-e68473745ad8"
+                ],
+                "name": "Demolding_PO",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "661dce07-1701-4d88-9788-b8689271b478",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "661dce07-1701-4d88-9788-b8689271b478",
+                    "longName": "Resin_Product",
+                    "shortName": "Resin_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "c6f0db07-c610-4eb0-8bb4-84fa3503d0de"
+                ],
+                "name": "Resin_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "661dce07-1701-4d88-9788-b8689271b478_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                    "longName": "Tool_Product",
+                    "shortName": "Tool_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "35e5b59d-e053-4877-b2b6-b0f0fcb5d2f3"
+                ],
+                "name": "Tool_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "ac556705-bdf1-4d95-a2f3-03eb64feca32_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "48358627-474e-4117-8683-7508d1e637a0",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "48358627-474e-4117-8683-7508d1e637a0",
+                    "longName": "Time_Info",
+                    "shortName": "Time_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [
+                    "3ddf38ca-408a-480d-a9c1-e68473745ad8"
+                ],
+                "outgoing": [],
+                "name": "Time_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "48358627-474e-4117-8683-7508d1e637a0_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "e6037107-3cbe-499a-b1f0-628d15913985",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "e6037107-3cbe-499a-b1f0-628d15913985",
+                    "longName": "FRP_Product",
+                    "shortName": "FRP_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [
+                    "6097af8f-2ac9-4caa-9a44-1d5b5b938ef2"
+                ],
+                "outgoing": [],
+                "name": "FRP_P",
+                "characteristics": []
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "5b3964b4-1637-4326-a356-613917abdcbc",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "5b3964b4-1637-4326-a356-613917abdcbc",
+                    "longName": "Used_Tool_Product",
+                    "shortName": "Used_Tool_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [
+                    "3a0a49a0-8925-471b-abdb-e9a35345ecd2"
+                ],
+                "outgoing": [],
+                "name": "Used_Tool_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "5b3964b4-1637-4326-a356-613917abdcbc_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "1832da22-c875-46ec-9174-8bec3a9e051f",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "1832da22-c875-46ec-9174-8bec3a9e051f",
+                    "longName": "Fibre_Product",
+                    "shortName": "Fibre_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "69acf6e4-278c-4b46-acd8-90b3b9a3a179"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "93bda67a-5b2a-47b4-8d86-e0fee962ca68"
+                ],
+                "name": "Fibre_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "1832da22-c875-46ec-9174-8bec3a9e051f_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                    "longName": "Target_T_Info",
+                    "shortName": "Target_T_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "7fd58c4b-5bb7-4045-88e1-457defeeb323"
+                ],
+                "name": "Target_T_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "b335f253-b723-49cd-a8b3-c6167e9b87d2_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                    "longName": "Injection_T_Info",
+                    "shortName": "Injection_T_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "68c59ccf-47b9-47c3-b774-0877b7abe772"
+                ],
+                "name": "Injection_T_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "62ee335a-14c9-491d-9421-db84be57032d",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "62ee335a-14c9-491d-9421-db84be57032d",
+                    "longName": "Current_T_Info",
+                    "shortName": "Current_T_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [],
+                "outgoing": [
+                    "f3163a55-96ef-4750-805a-f46906aaca47"
+                ],
+                "name": "Current_T_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "62ee335a-14c9-491d-9421-db84be57032d_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                    "longName": "Time_1_Info",
+                    "shortName": "Time_1_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14"
+                ],
+                "incoming": [
+                    "62802482-23f0-4421-95d3-42d8b18ecd32"
+                ],
+                "outgoing": [
+                    "4e5b4c8e-3352-4e9b-b613-752bb3263dee"
+                ],
+                "name": "Time_1_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "29aa81c6-32d0-41fe-aaa6-cc53189db763_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Information",
+                "id": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                    "longName": "Time_2_Info",
+                    "shortName": "Time_2_I",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [
+                    "2cebf786-9c52-4307-84ad-d5033bde5154"
+                ],
+                "outgoing": [
+                    "ca906108-71f0-4a51-a37a-c2e33597ab5f"
+                ],
+                "name": "Time_2_I",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "$type": "fpb:Product",
+                "id": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6",
+                "identification": {
+                    "$type": "fpb:Identification",
+                    "uniqueIdent": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6",
+                    "longName": "FRP_Int_Product",
+                    "shortName": "FRP_Int_P",
+                    "versionNumber": "1",
+                    "revisionNumber": "0"
+                },
+                "isAssignedTo": [
+                    "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                    "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9"
+                ],
+                "incoming": [
+                    "bf099218-0a5c-4ee9-b8d9-d11ef338d3c7"
+                ],
+                "outgoing": [
+                    "85287796-269a-429f-a29a-45a3b5cd1dc6"
+                ],
+                "name": "FRP_Int_P",
+                "characteristics": [
+                    {
+                        "$type": "fpbch:Characteristics",
+                        "category": {
+                            "$type": "fpb:Identification",
+                            "uniqueIdent": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6_c1",
+                            "longName": "",
+                            "shortName": "C_1",
+                            "versionNumber": "",
+                            "revisionNumber": ""
+                        },
+                        "descriptiveElement": {
+                            "$type": "fpbch:DescriptiveElement",
+                            "valueDeterminationProcess": "",
+                            "representivity": "",
+                            "setpointValue": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            },
+                            "validityLimits": [
+                                {
+                                    "$type": "fpbch:ValidityLimits",
+                                    "limitType": "",
+                                    "from": 0,
+                                    "to": 0
+                                }
+                            ],
+                            "actualValues": {
+                                "$type": "fpbch:ValueWithUnit",
+                                "value": 0,
+                                "unit": ""
+                            }
+                        },
+                        "relationalElement": {
+                            "$type": "fpbch:RelationalElement",
+                            "view": "",
+                            "model": "",
+                            "regulationsForRelationalGeneration": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "elementVisualInformation": [
+            {
+                "id": "653d364c-8725-465a-92c4-39af765ce1dd",
+                "type": "fpb:Usage",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 328,
+                            "y": 716
+                        },
+                        "x": 328,
+                        "y": 716
+                    },
+                    {
+                        "x": 517,
+                        "y": 716
+                    },
+                    {
+                        "x": 517,
+                        "y": 715
+                    },
+                    {
+                        "original": {
+                            "x": 705,
+                            "y": 715
+                        },
+                        "x": 705,
+                        "y": 715
+                    }
+                ]
+            },
+            {
+                "id": "88bc6ce0-ab23-484c-bdd7-040e67046b94",
+                "type": "fpb:Usage",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 330,
+                            "y": 473
+                        },
+                        "x": 330,
+                        "y": 473
+                    },
+                    {
+                        "x": 515,
+                        "y": 473
+                    },
+                    {
+                        "x": 515,
+                        "y": 472
+                    },
+                    {
+                        "original": {
+                            "x": 700,
+                            "y": 472
+                        },
+                        "x": 700,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "id": "3f38a4bf-ac1a-409b-93ed-4e1c7a5656ef",
+                "type": "fpb:Usage",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 325,
+                            "y": 234
+                        },
+                        "x": 325,
+                        "y": 234
+                    },
+                    {
+                        "original": {
+                            "x": 453,
+                            "y": 234
+                        },
+                        "x": 453,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "id": "b2b918dd-4395-4c45-8e1f-dc19c8793946",
+                "width": 647,
+                "height": 864,
+                "type": "fpb:SystemLimit",
+                "x": 402,
+                "y": 66
+            },
+            {
+                "id": "3859d195-d22a-4eda-a040-65129de6c746",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:TechnicalResource",
+                "x": 178,
+                "y": 676
+            },
+            {
+                "id": "3cc60a76-f929-454f-99cf-77e448e16942",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:TechnicalResource",
+                "x": 180,
+                "y": 433
+            },
+            {
+                "id": "e68a7ae8-3833-48fa-98ed-29bc5ebcd53e",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:TechnicalResource",
+                "x": 175,
+                "y": 194
+            },
+            {
+                "id": "93bda67a-5b2a-47b4-8d86-e0fee962ca68",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 473,
+                            "y": 88
+                        },
+                        "x": 473,
+                        "y": 88
+                    },
+                    {
+                        "x": 473,
+                        "y": 144
+                    },
+                    {
+                        "x": 528,
+                        "y": 144
+                    },
+                    {
+                        "original": {
+                            "x": 528,
+                            "y": 194
+                        },
+                        "x": 528,
+                        "y": 194
+                    }
+                ]
+            },
+            {
+                "id": "91f7cda9-083f-47b8-92dc-233c6c083040",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 528,
+                            "y": 274
+                        },
+                        "x": 528,
+                        "y": 274
+                    },
+                    {
+                        "x": 528,
+                        "y": 303
+                    },
+                    {
+                        "x": 494,
+                        "y": 303
+                    },
+                    {
+                        "original": {
+                            "x": 494,
+                            "y": 331
+                        },
+                        "x": 494,
+                        "y": 331
+                    }
+                ]
+            },
+            {
+                "id": "62802482-23f0-4421-95d3-42d8b18ecd32",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 528,
+                            "y": 274
+                        },
+                        "x": 528,
+                        "y": 274
+                    },
+                    {
+                        "x": 528,
+                        "y": 302
+                    },
+                    {
+                        "x": 629,
+                        "y": 302
+                    },
+                    {
+                        "original": {
+                            "x": 629,
+                            "y": 331
+                        },
+                        "x": 629,
+                        "y": 331
+                    }
+                ]
+            },
+            {
+                "id": "15729153-7b8d-4e16-822d-0557c529444e",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 494,
+                            "y": 381
+                        },
+                        "x": 494,
+                        "y": 381
+                    },
+                    {
+                        "x": 494,
+                        "y": 407
+                    },
+                    {
+                        "x": 775,
+                        "y": 407
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "4e5b4c8e-3352-4e9b-b613-752bb3263dee",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 629,
+                            "y": 381
+                        },
+                        "x": 629,
+                        "y": 381
+                    },
+                    {
+                        "x": 629,
+                        "y": 406
+                    },
+                    {
+                        "x": 775,
+                        "y": 406
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "35e5b59d-e053-4877-b2b6-b0f0fcb5d2f3",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 675,
+                            "y": 89
+                        },
+                        "x": 675,
+                        "y": 89
+                    },
+                    {
+                        "x": 675,
+                        "y": 185
+                    },
+                    {
+                        "x": 775,
+                        "y": 185
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "f3163a55-96ef-4750-805a-f46906aaca47",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 906,
+                            "y": 92
+                        },
+                        "x": 906,
+                        "y": 92
+                    },
+                    {
+                        "x": 906,
+                        "y": 185
+                    },
+                    {
+                        "x": 775,
+                        "y": 185
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "7fd58c4b-5bb7-4045-88e1-457defeeb323",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 1008,
+                            "y": 89
+                        },
+                        "x": 1008,
+                        "y": 89
+                    },
+                    {
+                        "x": 1008,
+                        "y": 185
+                    },
+                    {
+                        "x": 775,
+                        "y": 185
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "c6f0db07-c610-4eb0-8bb4-84fa3503d0de",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 584,
+                            "y": 91
+                        },
+                        "x": 584,
+                        "y": 91
+                    },
+                    {
+                        "x": 584,
+                        "y": 185
+                    },
+                    {
+                        "x": 775,
+                        "y": 185
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "68c59ccf-47b9-47c3-b774-0877b7abe772",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 805,
+                            "y": 91
+                        },
+                        "x": 805,
+                        "y": 91
+                    },
+                    {
+                        "x": 805,
+                        "y": 185
+                    },
+                    {
+                        "x": 775,
+                        "y": 185
+                    },
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 432
+                        },
+                        "x": 775,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "id": "2cebf786-9c52-4307-84ad-d5033bde5154",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 512
+                        },
+                        "x": 775,
+                        "y": 512
+                    },
+                    {
+                        "x": 775,
+                        "y": 540
+                    },
+                    {
+                        "x": 867,
+                        "y": 540
+                    },
+                    {
+                        "original": {
+                            "x": 867,
+                            "y": 569
+                        },
+                        "x": 867,
+                        "y": 569
+                    }
+                ]
+            },
+            {
+                "id": "bf099218-0a5c-4ee9-b8d9-d11ef338d3c7",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 775,
+                            "y": 512
+                        },
+                        "x": 775,
+                        "y": 512
+                    },
+                    {
+                        "x": 775,
+                        "y": 540
+                    },
+                    {
+                        "x": 710,
+                        "y": 540
+                    },
+                    {
+                        "original": {
+                            "x": 710,
+                            "y": 567
+                        },
+                        "x": 710,
+                        "y": 567
+                    }
+                ]
+            },
+            {
+                "id": "ca906108-71f0-4a51-a37a-c2e33597ab5f",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 867,
+                            "y": 619
+                        },
+                        "x": 867,
+                        "y": 619
+                    },
+                    {
+                        "x": 867,
+                        "y": 647
+                    },
+                    {
+                        "x": 780,
+                        "y": 647
+                    },
+                    {
+                        "original": {
+                            "x": 780,
+                            "y": 675
+                        },
+                        "x": 780,
+                        "y": 675
+                    }
+                ]
+            },
+            {
+                "id": "85287796-269a-429f-a29a-45a3b5cd1dc6",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 710,
+                            "y": 617
+                        },
+                        "x": 710,
+                        "y": 617
+                    },
+                    {
+                        "x": 710,
+                        "y": 647
+                    },
+                    {
+                        "x": 780,
+                        "y": 647
+                    },
+                    {
+                        "original": {
+                            "x": 780,
+                            "y": 675
+                        },
+                        "x": 780,
+                        "y": 675
+                    }
+                ]
+            },
+            {
+                "id": "3a0a49a0-8925-471b-abdb-e9a35345ecd2",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 780,
+                            "y": 755
+                        },
+                        "x": 780,
+                        "y": 755
+                    },
+                    {
+                        "x": 780,
+                        "y": 832
+                    },
+                    {
+                        "x": 555,
+                        "y": 832
+                    },
+                    {
+                        "original": {
+                            "x": 555,
+                            "y": 909
+                        },
+                        "x": 555,
+                        "y": 909
+                    }
+                ]
+            },
+            {
+                "id": "6097af8f-2ac9-4caa-9a44-1d5b5b938ef2",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 780,
+                            "y": 755
+                        },
+                        "x": 780,
+                        "y": 755
+                    },
+                    {
+                        "x": 780,
+                        "y": 831
+                    },
+                    {
+                        "x": 727,
+                        "y": 831
+                    },
+                    {
+                        "original": {
+                            "x": 727,
+                            "y": 906
+                        },
+                        "x": 727,
+                        "y": 906
+                    }
+                ]
+            },
+            {
+                "id": "3ddf38ca-408a-480d-a9c1-e68473745ad8",
+                "type": "fpb:Flow",
+                "waypoints": [
+                    {
+                        "original": {
+                            "x": 780,
+                            "y": 755
+                        },
+                        "x": 780,
+                        "y": 755
+                    },
+                    {
+                        "x": 780,
+                        "y": 831
+                    },
+                    {
+                        "x": 911,
+                        "y": 831
+                    },
+                    {
+                        "original": {
+                            "x": 911,
+                            "y": 906
+                        },
+                        "x": 911,
+                        "y": 906
+                    }
+                ]
+            },
+            {
+                "id": "69acf6e4-278c-4b46-acd8-90b3b9a3a179",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:ProcessOperator",
+                "x": 453,
+                "y": 194
+            },
+            {
+                "id": "46ce2b2d-1377-488b-9c91-14690c4808db",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 469,
+                "y": 331
+            },
+            {
+                "id": "abea8ed0-fbb2-43eb-89bd-5aa6d8a72f14",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:ProcessOperator",
+                "x": 700,
+                "y": 432
+            },
+            {
+                "id": "577fa11b-97ce-4b1d-9b5a-6dd13aac84e9",
+                "width": 150,
+                "height": 80,
+                "type": "fpb:ProcessOperator",
+                "x": 705,
+                "y": 675
+            },
+            {
+                "id": "661dce07-1701-4d88-9788-b8689271b478",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 559,
+                "y": 41
+            },
+            {
+                "id": "ac556705-bdf1-4d95-a2f3-03eb64feca32",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 650,
+                "y": 39
+            },
+            {
+                "id": "48358627-474e-4117-8683-7508d1e637a0",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 886,
+                "y": 906
+            },
+            {
+                "id": "e6037107-3cbe-499a-b1f0-628d15913985",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 702,
+                "y": 906
+            },
+            {
+                "id": "5b3964b4-1637-4326-a356-613917abdcbc",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 530,
+                "y": 909
+            },
+            {
+                "id": "1832da22-c875-46ec-9174-8bec3a9e051f",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 448,
+                "y": 38
+            },
+            {
+                "id": "b335f253-b723-49cd-a8b3-c6167e9b87d2",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 983,
+                "y": 39
+            },
+            {
+                "id": "3a9f81a6-6a4c-431e-b657-0fd1e18fe4af",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 780,
+                "y": 41
+            },
+            {
+                "id": "62ee335a-14c9-491d-9421-db84be57032d",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 881,
+                "y": 42
+            },
+            {
+                "id": "29aa81c6-32d0-41fe-aaa6-cc53189db763",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 604,
+                "y": 331
+            },
+            {
+                "id": "9e62921d-2d03-490d-ad7a-ae58b2b3b04a",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Information",
+                "x": 842,
+                "y": 569
+            },
+            {
+                "id": "8c62f39b-e1de-4a9b-99a1-094b5d6be0a6",
+                "width": 50,
+                "height": 50,
+                "type": "fpb:Product",
+                "x": 685,
+                "y": 567
+            }
+        ]
+    }
+]
