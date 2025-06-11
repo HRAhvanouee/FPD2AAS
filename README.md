@@ -29,7 +29,7 @@ The Asset Administration Shell (AAS) plays a central role in Industry 4.0 by pro
 
 ## Mapping - Overview
 
-![Mapping - Overview](Sample.png)
+
 
 
 ##
